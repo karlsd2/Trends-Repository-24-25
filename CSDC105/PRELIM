@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Resume - Karl M. Sto. Domingo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    .resume {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .info {
+      text-align: left;
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+     h1, h2, p {
+     align-self: flex-start;
+     
+     }
+    
+    h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+    h2 {
+      font-size: 20px;
+      color: #555;
+      margin-top: 0;
+    }
+    p{
+      margin: 5px 0 0 0;
+    }
+    .education {
+      margin-top: 20px;
+      text-align: left;
+    }
+    .contact {
+      margin-top: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <img class="profile-img" src="https://scontent.fmnl13-1.fna.fbcdn.net/v/t1.15752-9/475971903_669264748865794_8810945045275136040_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGJ3Ae7LA3Ob1CB0UfFXV3zjKzVwKpW63-MrNXAqlbrf4GWPVOXRTx_qwhAZCixXnLAI5fISf93X2lEV21PH19o&_nc_ohc=77FcNmtvy0sQ7kNvgF1eJPS&_nc_oc=AdhJ0Gi3RWTs-Zud3vpAiesmjG-7QUq8RCmrwKE0BNWxbLNzvjnyT9J7bfhmVaSc2uA&_nc_zt=23&_nc_ht=scontent.fmnl13-1.fna&oh=03_Q7cD1gFADWN-wF7FWh68kLc5YTFTxYWv21rqEwYhqMlXI6C2pA&oe=67D2CD09" alt="Profile Picture">
+    <div class="info">
+      <h1>KARL M. STO. DOMINGO</h1>
+      <h2>Student</h2>
+      <p> Seeking opportunities to utilize my skills and gain experience in various services, demonstrating potential through <i>hard work</i>, efficiency, enthusiasm, and integrity.</p>
+    </div>
+  </div>
+  
+  <hr>
 
+  <div class="contact">
+    <h3>CONTACT</h3>
+    <ul>
+      <li><b>Cellphone Number:</b> 09517508008</li>
+      <li><b>Email:</b> karstodomingo@gbox.adnu.edu.ph</li>
+      <li><b>Address:</b> 055, Zone 2, Namuat, Gainza, Camarines Sur</li>
+    </ul>
+  </div>
+
+  <div class="education">
+    <h3>EDUCATION</h3>
+    <table>
+      <tr>
+        <th>Level</th>
+        <th>School</th>
+        <th>Years Attended</th>
+      </tr>
+      <tr>
+        <td><b>Tertiary</b></td>
+        <td>Ateneo de Naga University</td>
+        <td>2023 - Present</td>
+      </tr>
+      <tr>
+        <td><b>Secondary</b></td>
+        <td>Camaligan National High School</td>
+        <td>2018 - 2023</td>
+      </tr>
+      <tr>
+        <td><b>Primary</b></td>
+        <td>Malbong Elementary School</td>
+        <td>2012 - 2018</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="experience">
+    <h3>WORK EXPERIENCE</h3>
+    <ol>
+      <li>Configure routers, switches, and workstations to
+          ensure seamless connectivity and security.</li>
+      <li>Assisted in setting up computers and networking
+          equipment for community events.</li>
+      <li>Provided basic IT supports to community members,
+          helping them with software installation and
+          troubleshooting.</li>
+      <li>Conducted workshop on basic computer skills and
+        internet safety.</li>
+    </ol>
+  </div>
+  
+  <div class="references">
+    <h4>REFERENCES</h4>
+    <ul>
+    <p>Marvin L. Federizo</p>
+    <li>Security Head in Naga College
+        Foundation</li>
+    <li><b>Email :</b> marvinfederizo.31@gmail.com</li>
+   
+  </ul>
+  </div>
+</body>
+</html>
